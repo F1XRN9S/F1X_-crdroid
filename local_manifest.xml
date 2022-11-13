@@ -1,1 +1,10 @@
-git clone https://github.com/windowzytch/platform_manifest -b <branch> .repo/local_manifests
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+
+ <!-- Trees -->
+ <project path="rosemary" name="F1XRN9S /android_device_rosemary.git" remote="github" revision="crdroid-8.10" />
+ <project path="rosemary/msm8953-common" name="F1XRN9S/android_device_rosemary_msm8953-common.git" remote="github" revision="crdroid-8.10" />
+ <project path="vendor/rosemary" name="RahulPalXDA/android_vendor_rosemary.git" remote="github" revision="master" />
+ <project path="kernel/rosemary" name="rosemary Devs/android_kernel_rosemary-4.9.git" remote="github" revision="crdroid-8.10" />
+ 
+</manifest>
